@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad_22</title>
+  </head>
+  <body>
+    <script>
+    var numero1 = prompt("Dime un numero");
+    var numero2 = prompt("Otro numero");
+    numero1 = parseInt(numero1);
+    numero2 = parseInt(numero2);
+    var operacion = prompt("¿Que quieres? Multiplicar, sumar, restar o dividir");
+    if (operacion == "multiplicar"){
+       var mult = (numero1*numero2);
+       alert(mult);
+    } else if (operacion == "sumar") {
+      var sum = (numero1+numero2);
+      alert(sum);
+    } else if (operacion == "restar") {
+      var res = (numero1-numero2);
+      alert(res);
+    } else if (operacion == "dividir") {
+      var divi = (numero1/numero2);
+      alert(divi);
+    }
+    </script>
+  </body>
+</html>

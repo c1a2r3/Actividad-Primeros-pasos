@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>If-else</title>
+  </head>
+  <body>
+    <script>
+    //If: especifica un bloque de cogigo que se ejecuta si una condiciones cierta.
+    /* SINTAXIS:
+    if (<condicion>){
+        //INSTRUCCIONES SI LA CONDICION ES VERDADERA
+  } else {} */
+      var nota = 8;
+      if (nota >= 5){
+         alert("Has aprobado");
+      }
+      var nota2 = 4;
+      if (nota2 >=5){
+        alert("Has aprobado")
+      } else {
+        alert("Has suspendido")
+      }
+
+      var nota3 = 6;
+      if (nota3<5){
+        alert("Has suspendido");
+      } else if ( nota3 == 5){
+        alert("Has sacado un suficiente");
+      } else if (nota == 6) {
+        alert("Has sacado un bien");
+      } else if (nota3 == 7 || nota3 == 8){
+        alert("Has sacado un notable")
+      } else {
+        alert("HAS SACADO UN SOBRESALIENTE");
+      }
+    </script>
+  </body>
+</html>
